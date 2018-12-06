@@ -1,0 +1,54 @@
+body {
+	color: #009ACD;
+}
+.top {
+	background: deepskyblue;
+}
+a.link {
+	color: #009ACD;
+}
+.topic_info {
+	background: #009ACD;
+}
+.message {
+	background: rgba(0,191,255,0.6);
+}
+a.back {
+	background: url(images/back.png);
+}
+a.back:hover {
+	background: url(images/back_hover.png);
+}
+a.goprofile {
+	/*background: #009ACD;*/
+}
+a.goprofile:hover {
+	background: #00B2EE;
+}
+.here {
+	background: #00688B;
+}
+.field {
+	border: 2px solid #009ACD;
+	color: #009ACD;
+}
+.filed:hover {
+	border: 2px solid deepskyblue;
+}
+.select {
+	border: 2px solid #009ACD;
+}
+.button {
+		border: 2px solid #009ACD;
+		background: #009ACD;
+}
+.button:hover {
+		border: 2px solid deepskyblue;
+		background: deepskyblue;
+}
+hr {
+	border: 1px solid #009ACD;
+}
+a.back {
+	background: url(images/back_blue.png);
+}

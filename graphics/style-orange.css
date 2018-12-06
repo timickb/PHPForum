@@ -1,0 +1,48 @@
+body {
+	color: darkorange;
+}
+.top {
+	background: orange;
+}
+a.link {
+	color: chocolate;
+}
+.topic_info {
+	background: darkorange;
+}
+.message {
+	background: #DEB887;
+}
+a.goprofile {
+	/*background: darkorange;*/
+}
+a.goprofile:hover {
+	background: peru;
+}
+.here {
+	background: chocolate;
+}
+.field {
+	border: 2px solid darkorange;
+	color: darkorange;
+}
+.filed:hover {
+	border: 2px solid orange;
+}
+.select {
+	border: 2px solid darkorange;
+}
+.button {
+		border: 2px solid darkorange;
+		background: darkorange;
+}
+.button:hover {
+		border: 2px solid orange;
+		background: orange;
+}
+hr {
+	border: 1px solid darkorange;
+}
+a.back {
+	background: url(images/back_orange.png);
+}

@@ -1,0 +1,43 @@
+body {
+	color: rgb(50,50,50);
+}
+.top {
+	background: rgb(200,200,200);
+}
+a.link {
+	color: deepskyblue;
+}
+.topic_info {
+	background: rgb(180,180,180);
+}
+.message {
+	background: rgb(230,230,230);
+}
+a.goprofile {
+	/*background: rgb(180,180,180);*/
+}
+a.goprofile:hover {
+	background: rgb(160,160,160);
+}
+.here {
+	background: rgb(120,120,120);
+}
+.field {
+	border: 2px solid rgb(50,50,50);
+}
+.filed:hover {
+	border: 2px solid rgb(180,180,180);
+}
+.select {
+	border: 2px solid rgb(50,50,50);
+}
+.button {
+		border: 2px solid rgb(120,120,120);
+		background: rgb(120,120,120);
+}
+.button:hover {
+		border: 2px solid rgb(200,200,200);
+}
+a.back {
+	background: url(images/back.png);
+}

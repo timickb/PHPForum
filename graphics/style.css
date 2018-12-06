@@ -1,0 +1,137 @@
+@font-face {
+font-family:main;
+src: url(fonts/rotondac.otf);
+}
+@font-face {
+    font-family: bold;
+    src: url(fonts/rotondab.ttf);
+}
+@font-face {
+    font-family: handy;
+    src: url(fonts/hAndy.ttf);
+}
+body {
+	font-family: main;
+	font-size: 16pt;
+}
+.logo {
+	background: url(images/logo.png);
+	width: 48px;
+	height: 48px;
+}
+.logo:hover {
+	background: url(images/logo_hover.png);
+}
+.top {
+	margin: -8px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 100%;
+	position: fixed;
+	overflow: auto;
+ 	box-shadow: 0 5 18px rgba(0,0,0,0.3);
+	z-index: 10;
+}
+.header {
+	font-size: 28pt;
+	display: inline-block;
+	position: relative;
+	bottom: 5px;
+	margin-top: 100px;
+	left: 10px;
+}
+a.white_link {
+	color: white;
+	display: inline-block;
+	padding: 2px;
+}
+.topic_info {
+	padding: 10px;
+	background: rgb(180,180,180);
+	color: white;
+	border-radius: 9px;
+	font-size: 18pt;
+	margin: 5px;
+}
+.message {
+	padding: 10px;
+	padding-bottom: 0px;
+	border-radius: 9px;
+	margin: 5px;
+	color: black;
+	border: 2px solid rgb(250,250,250);
+	word-wrap: break-word;
+}
+a.back {
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	position: relative;
+	top: 10px;
+}
+a.goprofile {
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	font-size: 14pt;
+}
+.here {
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	font-size: 16pt;
+}
+.error {
+	color: white;
+	margin: -3px;
+	padding: 15px;
+	background: orange;
+}
+.success {
+	color: white;
+	margin: -3px;
+	background: green;
+	padding: 15px;
+}
+.num_notifies {
+	padding-left: 3px;
+	padding-right: 3px;
+	background: red;
+	color: white;
+	margin-left: 5px;
+	display: inline-block;
+
+}
+.field {
+	padding: 5px;
+	margin: 5px;
+	font-family: main;
+	font-size: 14pt;
+	border: 2px solid rgb(50,50,50);
+}
+.select {
+	padding: 5px;
+	margin: 5px;
+	font-family: main;
+	font-size: 14pt;
+}
+.button {
+		padding: 5px;
+		margin: 5px;
+		font-size: 14pt;
+		color: white;
+		font-family: main;
+}
+.lbutton {
+	color: blue;
+	text-decoration: underline;
+	border: none;
+	background: transparent;
+	font-size: 16pt;
+	font-family: main;
+}
+textarea {
+	width: 75%;
+}

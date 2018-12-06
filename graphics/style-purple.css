@@ -1,0 +1,44 @@
+body {
+	color: purple;
+}
+.top {
+	background: purple;
+}
+a.link {
+	color: purple;
+}
+.topic_info {
+	background: purple;
+}
+.message {
+	background: mediumorchid;
+}
+a.goprofile {
+	/*background: mediumviolet;*/
+}
+a.goprofile:hover {
+	background: darkviolet;
+}
+.here {
+	background: blueviolet;
+}
+.field {
+	border: 2px solid purple;
+}
+.select {
+	border: 2px solid purple;
+}
+.button {
+		border: 2px solid purple;
+		background: purple;
+}
+.button:hover {
+		border: 2px solid mediumpurple;
+		background: mediumpurple;
+}
+hr {
+	border: 1px solid purple;
+}
+a.back {
+	background: url(images/back_purple.png);
+}
